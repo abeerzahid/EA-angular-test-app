@@ -1,0 +1,8 @@
+{
+    "/api": {
+        "target":"https://eacp.energyaustralia.com.au",
+        "secure": false,
+        "pathRewrite": {"^/api" : ""},
+        "changeOrigin": true
+    }
+}

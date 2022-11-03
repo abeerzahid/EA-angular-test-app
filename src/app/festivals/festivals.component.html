@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card-container my-5" *ngFor="let festival of festivals">
+    <h3>{{festival.name}}</h3>
+    <div class="row">
+      <div class="col-sm-4 mb-3" *ngFor="let band of festival.bands">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{band.name}}</h5>
+            <p class="card-text">{{band.recordLabel}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
